@@ -6,7 +6,7 @@
     display:flex;
     justify-content:space-between;
     align-items:center;
-    background-color:#333;
+    background-color: teal;
     padding:2rem;
     color:white;
 }
@@ -40,4 +40,9 @@
     outline: none;
     margin-bottom: 1.4rem;
     border-collapse: collapse;
+}
+.right{
+
+    display: flex;
+    gap: 1.2rem;
 }
