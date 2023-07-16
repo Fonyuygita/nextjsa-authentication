@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background-color:#333;
+    padding:2rem;
+    color:white;
+}
+.l2{
+    background-color: #fff;
+    color: #333;
+    padding:12px 13px;
+}
+
+.l1{
+    font-stretch: expanded;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    border: 1px solid #333;
+    margin-bottom:14px;
+
+}
+.output{
+   
+}
+.t-title{
+    margin-top: 2rem;
+}
+.input{
+    border: none;
+    padding: 12px 12px;
+    border-bottom: 1px solid #444;
+    outline: none;
+    margin-bottom: 1.4rem;
+    border-collapse: collapse;
+}
