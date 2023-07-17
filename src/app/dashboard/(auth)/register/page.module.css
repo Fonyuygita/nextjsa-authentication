@@ -1,0 +1,86 @@
+/* our  css here  */
+.container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+    flex-direction: column;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    background-color: #fff;
+    padding: 3rem;
+    margin-top: 2.4rem;
+}
+
+ .title{
+    color: #444;
+    letter-spacing: 9px;
+    font-size: 2.6rem;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.form input{
+    padding: 9px 18px;
+    border:0.3px solid teal;
+    outline: none;
+
+}
+
+.form button{
+    background: teal;
+    padding: 9px 15px;
+    outline: none;
+    border: none;
+    color: #fff;
+    transition: 0.4s all ease-in;
+    
+}
+
+.form button:hover{
+    opacity: 0.7;
+}
+
+.loginOption{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.9rem;
+}
+
+.login{
+    display: flex;
+    gap: 4px;
+    align-items: center;
+    justify-self: center;
+}
+.login span{
+    margin-top: 1rem;
+    font-weight: bold;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    opacity: 0.4;
+}
+.login .inLogin{
+   border-bottom: 1px solid teal;
+
+}
+
+.login .paren{
+    margin-left: 1rem;
+}
+ button.google{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 11px  35px;
+    gap: 11px;
+     border: 1px solid gray;
+     
+}
