@@ -3,7 +3,7 @@
 import connectMongoDB from "@/config/db";
 import Topics from "@/models/topics";
 import { NextResponse } from "next/server";
-import nodemon from "nodemon";
+
 
 //  UPDATE A SINGLE TOPIC BASED ON ID 
 export async function PUT(request, { params }) {
