@@ -1,16 +1,23 @@
 
 "use client"
+// ***********************************************************************
 
 import React, { useState } from 'react'
 import styles from "./page.module.css"
 import Link from 'next/link'
 import { useRouter } from 'next/router'
 
+// *****************************************************************************
+
+//  APP BUILD
+
+// **********************************************************
 const Register = () => {
 
     const [error, setError] = useState(false);
-    const handleSubmit = async () => {
     const router = useRouter();
+
+    const handleSubmit = async () => {
 
         // get input from user
         const name = e.target[0].value;
@@ -32,6 +39,7 @@ const Register = () => {
             console.log("error occurred");
         }
     }
+    // ****************************************************************************8
     return (
         <div className={styles.container}>
 
